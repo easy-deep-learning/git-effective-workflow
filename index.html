@@ -39,16 +39,59 @@
 <!-- Устройство (begin) -->
 <section class="slide">
   <h2>Устройство</h2>
-
-  <p></p>
+  <p>Git — контентно-адресуемая файловая система</p>
+  <p class="next">WTF?</p>
+  <h3 class="next">Все — файл: коммиты, стуктура папок, ветки</h3>
+  <h3 class="next">Название: Хеш содержимого (контента)</h3>
+  <code class="next">
+    $ echo 'test content' | git hash-object --stdin -w
+    d670460b4b4aece5915caf5c68d12f560a9fe3e4
+  </code>
 </section>
 <!-- Устройство (end) -->
+
+<!-- Хранилище ключ-значение (begin) -->
+<section class="slide">
+  <h2>Хранилище ключ-значение</h2>
+
+  <p>Папка <code>.git/objects</code></p>
+
+  <code>
+    $ find .git/objects -type f
+    <mark>
+    .git/objects/d6/70460b4b4aece5915caf5c68d12f560a9fe3e4
+    </mark>
+  </code>
+
+  <p class="next">Магия</p>
+
+  <code class="next">
+    $ git cat-file -p d670460b4b4aece5915caf5c68d12f560a9fe3e4
+    test content
+  </code>
+
+</section>
+<!-- хранилище ключ-значение (end) -->
+
+<!-- Этот проект (begin) -->
+<section class="slide">
+  <img src="pictures/objects-current-repo.png" width="100%" alt="" class="cover">
+</section>
+<!-- Этот проект (end) -->
+
+<!-- Маппинг файлов проекта на файлы в git (begin) -->
+<!-- TODO: сделать свою картинку -->
+<section class="slide">
+  <img src="pictures/project-files-map-to-git-files.png" alt="" class="cover">
+</section>
+<!-- Маппинг файлов проекта на файлы в git (end) -->
 
 <!-- Contacts (begin) -->
 <section class="slide">
   <h2>Спасибо!</h2>
 
-  <img src="https://alexbaumgertner.github.io/photos/alexbaumgertner_2014.jpg" width="300" style="float: right;" alt="alexbaumgertner">
+  <img src="https://alexbaumgertner.github.io/photos/alexbaumgertner_2014.jpg" width="300" style="float: right;"
+      alt="alexbaumgertner">
   <ul style="margin: 200px 0 0 0;">
     <li><a target="_blank" href="https://github.com/alexbaumgertner">github.com/alexbaumgertner</a></li>
     <li><a target="_blank" href="https://twitter.com/alexbaumgertner">twitter.com/alexbaumgertner</a></li>
