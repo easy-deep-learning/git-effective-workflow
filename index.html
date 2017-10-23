@@ -59,7 +59,7 @@
   <code>
     $ find .git/objects -type f
     <mark>
-    .git/objects/d6/70460b4b4aece5915caf5c68d12f560a9fe3e4
+      .git/objects/d6/70460b4b4aece5915caf5c68d12f560a9fe3e4
     </mark>
   </code>
 
@@ -102,6 +102,43 @@
   <img src="pictures/tree-file.png" alt="" class="cover">
 </section>
 <!-- Tree (end) -->
+
+<!-- Commit (begin) -->
+<section class="slide">
+  <h2>Commit файл</h2>
+  <img src="pictures/commit-file.png" alt="" class="cover">
+</section>
+<!-- Commit (end) -->
+
+<!-- Commit - указатель на Tree (begin) -->
+<section class="slide">
+  <h2>Commit - указатель на Tree</h2>
+  <p>С дополнительной информацией:</p>
+  <ul>
+    <li>автор</li>
+    <li>коммитер</li>
+    <li>сообщение</li>
+    <li>родительский коммит (коммиты)</li>
+  </ul>
+</section>
+<!-- Commit - указатель на Tree (end) -->
+
+<!-- Пример содержимого коммита (begin) -->
+<section class="slide">
+
+  <h2>Пример содержимого коммита</h2>
+  <code>git cat-file -p d56c82c</code>
+  <br>
+  <br>
+  <pre>
+  <code>tree 6570731726609234570f02a83b98f3160cad1891</code>
+  <code>parent 14140056374e6f4407a82762699d6c5727771a8c</code>
+  <code>author alexbaumgertner &lt;alex.baumgertner@gmail.com> 1508792128 +0300</code>
+  <code>committer alexbaumgertner &lt;alex.baumgertner@gmail.com> 1508792128 +0300</code>
+  <code>Add: git file types: blob and tree</code>
+  </pre>
+</section>
+<!-- Пример содержимого коммита (end) -->
 
 <!-- Contacts (begin) -->
 <section class="slide">
