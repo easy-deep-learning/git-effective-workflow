@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Работа с git: мастер-класс</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body class="shower list">
+
+<header class="caption">
+  <h1>Работа с git.</h1>
+  <p>Мастер-класс</p>
+</header>
+
+<!-- Заглавная страница (begin) -->
+<section class="slide" style="text-align:center;">
+  <h2 style="font-size: 6em;">Работа с git</h2>
+  <p
+    style="font-size: 2em; line-height: 1.3em; margin: 2em 0 0 0;">Мастер-класс</p>
+</section>
+<!-- Заглавная страница (end) -->
+
+<!-- TOC (begin) -->
+<section class="slide">
+  <h2>Работа с git. Мастер-класс.</h2>
+  <ul>
+    <li>Чем НЕ яляется git?</li>
+    <li>Коммит</li>
+    <li>Управление историей</li>
+    <li>Github</li>
+    <li>Секция вопросов и ответов</li>
+  </ul>
+</section>
+<!-- TOC (end) -->
+
+<!-- Чем НЕ яляется git? (begin) -->
+<section class="slide">
+  <h2>Чем НЕ яляется git?</h2>
+  <img src="pictures/save-or-not.jpg" width="100%">
+</section>
+<!-- Чем НЕ яляется git? (end) -->
+
+<!-- git — не кнопка Сохранить (begin) -->
+<section class="slide">
+  <h2>git — не кнопка &laquo;Сохранить&raquo;</h2>
+  <br><br>
+  <pre>
+			<code>Поправил файл index.html</code>
+			<code>Отредактировала main.css</code>
+			<code>Подзажали JS немношк...</code>
+			<code>Сохранили</code>
+			<code>Удалили</code>
+		</pre>
+</section>
+<!-- git — не кнопка Сохранить (end) -->
+
+
+<!-- Почему не кнопка Сохранить? (begin) -->
+<section class="slide">
+
+  <h2>Почему не кнопка Сохранить?</h2>
+
+  <p>1. Потому что есть <code>git diff %commit-hash%</code></p>
+  <p>2. Потому что есть github:
+    <img src="pictures/github-shows-diff.png" width="100%">
+  </p>
+
+</section>
+<!-- Почему не кнопка Сохранить? (end) -->
+
+
+<!-- why image boy and dog (begin) -->
+<section class="slide">
+  <img src="pictures/why-boy-and-dog.png" alt="" class="cover">
+</section>
+<!-- why image boy and dog (end) -->
+
+
+<!-- git — не чат (begin) -->
+<section class="slide">
+  <h2>git — не чат</h2>
+  <br>
+  <pre>
+			<code>Привет, как дела</code>
+			<code>Что-то main.css не собирается</code>
+			<code>Кто так пишет JS?</code>
+			<code><mark>Бомбануло</mark></code>
+			<code>лол, кек, чебурек, %ваша_любимая_эмодзи_тут%</code>
+		</pre>
+</section>
+<!-- git — не чат (end) -->
+
+<!-- why so serious image (begin) -->
+<section class="slide">
+  <img src="pictures/why-so-serious.jpg" alt="" class="cover">
+</section>
+<!-- why so serious image (end) -->
+
+<!-- Ничего не понимаю картинка (begin) -->
+<section class="slide">
+  <img src="pictures/nichego-ne-ponimay.png" alt="" height="100%" class="cover">
+</section>
+<!-- Ничего не понимаю картинка (end) -->
+
+
+<!-- Во-первых, содержание коммита(begin) -->
+<section class="slide">
+  <h2 class="shout shrink">Во-первых: содержание коммита</h2>
+</section>
+<!-- Во-первых, содержание коммита (end) -->
+
+
+<!-- Схема сборки автомобиля, картинка (begin) -->
+<section class="slide">
+  <img src="pictures/Process_potochnogo_okrashivanija_kuzovov.jpg" alt="" class="cover">
+</section>
+<!-- Схема сборки автомобиля, картинка (end) -->
+
+
+<!-- Ван Гог и ухо (begin) -->
+<section class="slide">
+  <img src="pictures/vse-na-svoich-mestach.png" alt="" class="cover">
+</section>
+<!-- Ван Гог и ухо (end) -->
+
+<!-- Чуть-чуть поправлены общие стили(begin) -->
+<section class="slide">
+  <p>NO!</p>
+  <pre>
+    <code>...Немножко, но не полностью написано новое
+и почти доправлено старое.
+Нельзя добавить/удалить этот код без поломки проекта
+    </code>
+  </pre>
+  <p>YES!</p>
+  <pre>
+    <code>Добавить верстку формы</code>
+    <code>Добавить ajax отправку данных формы</code>
+    <code>Исправить валидацию формы</code>
+  </pre>
+</section>
+<!-- Чуть-чуть поправлены общие стили (end) -->
+
+
+<!-- Во-вторых, имя коммита(begin) -->
+<section class="slide">
+  <h2 class="shout shrink">Во-вторых: <br> имя коммита</h2>
+</section>
+<!-- Во-вторых, имя коммита (end) -->
+
+<!-- Video: Как называть переменные: Григорий Петров (begin) -->
+<section class="slide">
+
+  <h2>Выбор имен</h2>
+  <p>
+    <a href="https://www.youtube.com/watch?v=z5WkDQVeYU4">
+      Video: Как называть переменные: Григорий Петров
+    </a>
+  </p>
+
+  <p>Перераспределение сложности:</p>
+  <ul>
+    <li class="next active">комменты к коммитам</li>
+    <li class="next active">документация</li>
+    <li class="next active">архитектура и абстракции</li>
+    <li class="next active">наименования идентификаторов!</li>
+  </ul>
+</section>
+<!-- Video: Как называть переменные: Григорий Петров (end) -->
+
+<!-- Гитхаб в Академии (begin) -->
+<section class="slide">
+  <a href="https://pitercss.ru/9/pres/github-academy.pdf"><img src="pictures/htmlacademy-github.png" alt="" class="cover"></a>
+</section>
+<!-- Гитхаб в Академии (end) -->
+
+<!-- Составление коммита (begin) -->
+<section class="slide">
+  <img src="pictures/CommitChangesWebstorm.png" alt="" class="cover">
+</section>
+<!-- Составление коммита (end) -->
+
+<!-- 70% проблем — решено! (begin) -->
+<section class="slide">
+
+  <h2 class="shout shrink">70% проблем — решено!</h2>
+
+  <p></p>
+</section>
+<!-- 70% проблем — решено! (end) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Contacts (begin) -->
+<section class="slide">
+  <h2>Спасибо!</h2>
+
+  <img src="https://alexbaumgertner.github.io/photos/alexbaumgertner_2014.jpg" width="300"
+    style="float: right;"
+    alt="alexbaumgertner">
+  <ul style="margin: 200px 0 0 0;">
+    <li><a target="_blank" href="https://github.com/alexbaumgertner">github.com/alexbaumgertner</a>
+    </li>
+    <li><a target="_blank"
+      href="https://twitter.com/alexbaumgertner">twitter.com/alexbaumgertner</a></li>
+    <li><a target="_blank" href="mailto:alex.baumgertner@gmail.com">alex.baumgertner@gmail.com</a>
+    </li>
+  </ul>
+</section>
+<!-- Contacts (end) -->
+
+<footer class="badge">
+  <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+</footer>
+
+<div class="progress"></div>
+
+<script src="node_modules/shower-core/shower.min.js"></script>
+</body>
+</html>
