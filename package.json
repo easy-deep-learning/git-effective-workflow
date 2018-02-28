@@ -1,18 +1,13 @@
 {
-  "name": "shower",
-  "description": "Shower HTML presentation engine",
-  "version": "2.3.0",
-  "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
-  },
-  "homepage": "https://github.com/shower/shower",
+  "name": "git-effective-workflow",
+  "version": "0.0.1",
+  "homepage": "https://github.com/easy-deep-learning/git-effective-workflow",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/shower.git"
+    "url": "git@github.com:easy-deep-learning/git-effective-workflow.git"
   },
   "bugs": {
-    "url": "http://github.com/shower/shower/issues"
+    "url": "https://github.com/easy-deep-learning/git-effective-workflow"
   },
   "license": "MIT",
   "keywords": [
