@@ -227,7 +227,7 @@
 <!-- Ребейз (end) -->
 
 
-<!- -merge-rebase (begin) -->
+<!-- merge-rebase (begin) -->
 <section class="slide">
   <img src="pictures/git-rebase.png" alt="" class="cover">
 </section>
@@ -237,12 +237,59 @@
 <!-- git force push (begin) -->
 <section class="slide">
   <h2>git force push</h2>
-
-  <p><code>git push my-branch <strong>--force</strong></code> — запушит все с форсом, если не указать имя ветки</p>
-  <p><code>git push <strong>+</strong>my-branch</code> — безопасно</p>
+  <p style="font-size: 2em; margin: 100px 0 30px 0;"><code>git push my-branch <strong>--force</strong></code></p>
+  <p> — запушит все с форсом, если не указать имя ветки</p>
 </section>
 <!-- git force push (end) -->
 
+<!-- emoticon_oh_no_poster.jpg (begin) -->
+<section class="slide">
+  <img src="pictures/emoticon_oh_no_poster.jpg" alt="" class="cover">
+</section>
+<!-- emoticon_oh_no_poster.jpg (end) -->
+
+
+<!-- git force push save (begin) -->
+<section class="slide">
+  <h2>git force push, безопасно</h2>
+  <p style="font-size: 2em;margin: 100px 0 30px 0;"><code>git push origin <strong>+</strong>my-branch </code></p>
+  <p> — ветку обязательно указывать.</p>
+</section>
+<!-- git force push save (end) -->
+
+
+<!-- Git rebase по ветке (begin) -->
+<section class="slide">
+  <h2>rebase по ветке</h2>
+  <p style="font-size: 2em; margin: 100px 0 30px 0;"><code>git rebase origin/master</code></p>
+  <p>Обновить историю по master</p>
+</section>
+<!-- Git rebase ветке (end) -->
+
+
+<!-- Git rebase -i (begin) -->
+<section class="slide">
+  <h2>Интерактивный rebase</h2>
+  <p style="font-size: 2em; margin: 100px 0 30px 0;"><code>git rebase 12345678</code></p>
+  <p>12345678 — хеш коммита, начало ребейза. Поправить историю: удалить, изменить порядок, переименовать коммиты</p>
+</section>
+<!-- Git rebase -i (end) -->
+
+
+<!-- git rebase -i, screencast (begin) -->
+<section class="slide">
+  <img src="pictures/rebase-editor.gif" alt="" class="cover">
+</section>
+<!-- git rebase -i, screencast (end) -->
+
+
+<!-- Git stash (begin) -->
+<section class="slide">
+  <h2>Git stash</h2>
+
+  <p>Когда нужно обновиться по master без коммита</p>
+</section>
+<!-- Git stash (end) -->
 
 
 
